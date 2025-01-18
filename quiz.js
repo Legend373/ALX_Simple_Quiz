@@ -5,7 +5,7 @@ function checkAnswer() {
     const feedbackContainer = document.getElementById('quiz-container');
     let feedBack = feedbackContainer.querySelector('#feedback');
     console.log(feedBack)
-    if (userAnswer == correctAnswer) {
+    if (userAnswer === correctAnswer) {
         feedBack.textContent = "Correct! Well done.";
     }
     else {
